@@ -18,7 +18,7 @@ For example, a `/api/users.js` file may include the following for `GET` requests
 ...
 'GET': {
   controller: 'users',
-  fn: 'getUsers`
+  fn: 'getUsers'
 }
 ...
 ```
