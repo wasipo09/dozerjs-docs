@@ -29,3 +29,21 @@ of the `modules.js` script, accessible throughout the application.
 
 The remaining files in the `/lib/` directory are utilized (once loaded) to control
 their corresponding functions throughout the applications.
+
+Accessing these modules can be done by simply ensuring access to the `modules`
+controller, then specifying the `type` and `source`:
+
+```javascript
+var modules = require('lib/modules.js`);
+var MODULENAME = modules.TYPE.SOURCE;
+```
+
+If, for example, you wanted to access a model named 'users' you would simply call:
+
+```javascript
+var userModel = modules.models.users;
+```
+
+The above is akin to using `require()` to access the module, the main difference
+being that the module being call is already in memory and in many places is (for
+example, any controllers) is automatically made available through native properties.
