@@ -1,4 +1,4 @@
-dozerjs-docs
-============
+# DozerJS Documentation
 
-Documentation and Templates for DozerJS
+This repository contains documentation, templates and examples for using and
+extending the [DozerJS](http://www.dozerjs.com) foundational framework.
