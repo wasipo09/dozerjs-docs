@@ -13,6 +13,11 @@ In order to build this foundation, DozerJS utilizes the following:
 * [Controllers](/controllers): Handlers for application-specific functionality
 * [Public/Views](/public): Static, publicly available assets for client-side applications
 
+## Implementation Topics
+
+* [NPM Client](/implementation/npm-client): Using command line utility
+* [Sockets](/implementation/sockets): Implementing sockets and namespaces
+
 ## Support
 
 While DozerJS is open source and not officially supported (yet), this repository
