@@ -9,24 +9,24 @@ module.exports = {
   // Handle GET method
   'GET': {
     controller: '{{controller}}',
-    fn: '{{method}}'
+    fn: '{{getMethod}}'
   },
 
   // Handle POST method
   'POST': {
     controller: '{{controller}}',
-    fn: '{{method}}'
+    fn: '{{createMethod}}'
   },
 
   // Handle PUT method
   'PUT': {
     controller: '{{controller}}',
-    fn: '{{method}}'
+    fn: '{{updateMethod}}'
   },
 
   // Handle DELETE method
   'DELETE': {
     controller: '{{controller}}',
-    fn: '{{method}}'
+    fn: '{{deleteMethod}}'
   }
 };
