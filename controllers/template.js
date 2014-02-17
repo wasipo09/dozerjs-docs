@@ -42,4 +42,27 @@ module.exports = {
   //   });
   // }
 
+  // Default Methods
+  // These are generated as handlers for API requests
+
+  // Get (GET)
+  {{getMethod}}: function (req, res) {
+
+  },
+
+  // Create (POST)
+  {{createMethod}}: function (req, res) {
+
+  },
+
+  // Update (PUT)
+  {{updateMethod}}: function (req, res) {
+
+  },
+
+  // Delete (DELETE)
+  {{deleteMethod}}: function (req, res) {
+
+  }
+
 };
