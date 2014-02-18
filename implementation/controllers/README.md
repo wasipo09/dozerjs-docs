@@ -27,8 +27,15 @@ controller.data              // Data interaction
     > data.{MODEL}.validate  // Validation on specific model
     > data.{MODEL}.{METHODS} // Any methods provided by the adapter for data source
 controller.sockets           // Sockets
-  > sockets.{MODEL}          // Specific socket, includes methods like .on() and .emit()
+  > sockets.{NAMESPACE}      // Specific socket namespace, includes methods like .on() and .emit()
 ```
 
 In addition to the above, of course all methods defined natively are accessible
 throughout the controller.
+
+## Applying External Modules
+
+Just like any other Node module, the `require()` statement can be used to tie in
+any additional libraries/modules needed, though it is recommended these be added
+through components so they are centralized and available throughout, with any common
+methods defines in the component itself.
