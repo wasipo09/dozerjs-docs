@@ -15,7 +15,7 @@ The structure of the controller object (at runtime) contains:
 
 ```javascript
 controller.config            // access to the global config
-controller.modules...        // access to modules
+controller.modules           // access to modules
   > modules.lib              // lib modules for core
   > modules.components       // all components
   > modules.adapters         // all adapters
