@@ -84,3 +84,8 @@ this.sockets.users.on('connection', function (socket) {
   socket.emit('sockety stuff');
 });
 ```
+
+## More Information
+
+For additional information about working with controllers, please view the
+[controllers implementation](../implementation/controllers) section.

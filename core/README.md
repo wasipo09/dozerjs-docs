@@ -34,7 +34,7 @@ Accessing these modules can be done by simply ensuring access to the `modules`
 controller, then specifying the `type` and `source`:
 
 ```javascript
-var modules = require('lib/modules.js`);
+var modules = require('lib/modules.js');
 var MODULENAME = modules.TYPE.SOURCE;
 ```
 
