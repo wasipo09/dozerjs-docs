@@ -17,6 +17,7 @@ In order to build this foundation, DozerJS utilizes the following:
 
 * [Configuration](/implementation/configuration): Setting dev and prod configurations
 * [NPM Client](/implementation/npm-client): Using command line utility
+* [Express Settings](/implementation/express-config): Applying custom Express config settings
 * [Middleware](/implementation/middleware): Applying custom Express middleware
 * [Controllers](/implementation/controllers): Working with controller objects
 * [Sockets](/implementation/sockets): Implementing sockets and namespaces
