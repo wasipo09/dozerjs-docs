@@ -30,7 +30,18 @@ The above will create:
 All of the above will have a basic structure including controller methods linked
 to the API requests.
 
-## Running DozerJS
+## Install Extensions
+
+The tool allows for easily installing prebuilt extensions from Git repositories.
+There is an [example extension](https://github.com/DozerJS/dz-example-extension) to
+show the basic structure and composition. To install an extension:
+
+`dozerjs install https://github.com/ORG/REPO.git`
+
+The above (using a HTTPS formatted Git URL) will pull the extension into a temp
+directory and then install it into the DozerJS project.
+
+## Run DozerJS
 
 The command tool can be used to easily run the DozerJS service. You
 must currently be in the root of a DozerJS project, then use:
